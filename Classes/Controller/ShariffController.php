@@ -33,6 +33,10 @@ class ShariffController extends ActionController
     {
         $this->response->setContentType('application/json');
 
-        return json_encode($this->shariff->get($url));
+        try {
+            return json_encode($this->shariff->get($url));
+        } catch (\Exception $exception) {
+            return json_encode(null);
+        }
     }
 }
