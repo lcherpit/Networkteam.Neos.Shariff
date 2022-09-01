@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/networkteam/Networkteam.Neos.Shariff.git"
+    "url": "git+https://github.com/lcherpit/Networkteam.Neos.Shariff.git"
   },
   "author": "networkteam GmbH",
   "license": "ISC",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/networkteam/Networkteam.Neos.Shariff#readme",
   "dependencies": {
-    "shariff": "^3.0.1"
+    "shariff-plus": "git+https://github.com/lcherpit/shariff-plus.git#0.1.0"
   }
 }
