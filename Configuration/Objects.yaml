@@ -1,4 +1,4 @@
-Heise\Shariff\Backend:
-  scope: singleton
-  factoryObjectName: Networkteam\Neos\Shariff\BackendFactory
-  factoryMethodName: create
+#Heise\Shariff\Backend:
+#  scope: singleton
+#  factoryObjectName: Networkteam\Neos\Shariff\BackendFactory
+#  factoryMethodName: create

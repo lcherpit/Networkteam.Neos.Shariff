@@ -1,12 +1,12 @@
 Neos:
-  Flow:
-    mvc:
-      routes:
-        'Networkteam.Neos.Shariff':
-          position: 'before Neos.Neos'
-    reflection:
-      ignoredTags:
-        unstable: true
+#  Flow:
+#    mvc:
+#      routes:
+#        'Networkteam.Neos.Shariff':
+#          position: 'before Neos.Neos'
+#    reflection:
+#      ignoredTags:
+#        unstable: true
   Neos:
     fusion:
       autoInclude:

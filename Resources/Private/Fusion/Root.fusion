@@ -32,12 +32,12 @@ prototype(Networkteam.Neos.Shariff:Shariff) < prototype(Neos.Fusion:Tag) {
 
     attributes {
         class = 'shariff'
-        data-backend-url = Neos.Fusion:UriBuilder {
-            package = 'Networkteam.Neos.Shariff'
-            format = 'json'
-            controller = 'Shariff'
-            action = 'counts'
-        }
+//        data-backend-url = Neos.Fusion:UriBuilder {
+//            package = 'Networkteam.Neos.Shariff'
+//            format = 'json'
+//            controller = 'Shariff'
+//            action = 'counts'
+//        }
         data-services = ${String.toLowerCase(Json.stringify(services))}
         data-theme = ${theme}
         data-button-style = ${buttonStyle}
